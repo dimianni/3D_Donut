@@ -1,29 +1,15 @@
-// import _ from 'lodash'
-// import { test } from './test.js'
-
-// console.log(_.join(['Hey', 'world', '!!!'], ' '));
-// test()
-
-
-
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
-
 import './scss/style.scss'
-import './images/dimianni_logo.svg'
-import './images/Peace.jpg'
 
-
-import myModel from './models/scene.gltf';
-import myModel2 from './models/scene.glb';
+// import myModel from './models/scene.gltf';
+// import myModel2 from './models/scene.glb';
 import myModel3 from './models/donut.glb';
 import './models/scene.bin'
 import './images/Material.001_baseColor.png'
 import './images/Material.001_metallicRoughness.png'
 import './images/Material.001_normal.png'
-
-
 
 
 
@@ -35,9 +21,7 @@ let root;
 
 loader.load(myModel3, function (glb) {
 
-    //    let obj = gltf;
-
-    console.log(glb);
+    // console.log(glb);
 
     root = glb;
 
@@ -48,8 +32,6 @@ loader.load(myModel3, function (glb) {
         root.scene.scale.set(15, 15, 15)
 
     }
-
-
 
     scene.add(root.scene);
 
@@ -62,7 +44,7 @@ loader.load(myModel3, function (glb) {
 });
 
 const light = new THREE.DirectionalLight(0xFFFFFF, 1.2)
-light.position.set(2, 2, 5)
+light.position.set(1, 12, 15)
 scene.add(light)
 
 const sizes = {
@@ -78,6 +60,7 @@ scene.add(camera)
 const renderer = new THREE.WebGL1Renderer({
     canvas: canvas
 })
+renderer.setClearColor(0xABD5F4, 1)
 renderer.setSize(sizes.width, sizes.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 renderer.shadowMap.enabled = true
