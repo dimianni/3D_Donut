@@ -1,0 +1,319 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 33448,
+      "max": [
+        0.8264111876487732,
+        0.3371787965297699,
+        2.0292232036590576
+      ],
+      "min": [
+        -0.7552551031112671,
+        -0.5699111819267273,
+        -0.010073721408843994
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 401376,
+      "componentType": 5126,
+      "count": 33448,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 33448,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 33448,
+      "max": [
+        0.9941319227218628,
+        0.9956845641136169
+      ],
+      "min": [
+        0.001953125,
+        0.001953125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 267584,
+      "componentType": 5126,
+      "count": 33448,
+      "max": [
+        0.9941319227218628,
+        0.9956845641136169
+      ],
+      "min": [
+        0.001953125,
+        0.001953125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 535168,
+      "componentType": 5126,
+      "count": 33448,
+      "max": [
+        0.9941319227218628,
+        0.9956845641136169
+      ],
+      "min": [
+        0.001953125,
+        0.001953125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 100029,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Milin Andrei (https://sketchfab.com/milinam2002)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/wheeled-robot-6701a4f2603a44bdbd9139967025858b",
+      "title": "Wheeled Robot"
+    },
+    "generator": "Sketchfab-13.28.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 400116,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 802752,
+      "byteOffset": 400116,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 802752,
+      "byteOffset": 1202868,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 535168,
+      "byteOffset": 2005620,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2540788,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "../images/Material.001_baseColor.png"
+    },
+    {
+      "uri": "../images/Material.001_metallicRoughness.png"
+    },
+    {
+      "uri": "../images/Material.001_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.1428571492433548,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.172065926445695e-17,
+        -0.1428571492433548,
+        0.0,
+        0.0,
+        0.1428571492433548,
+        3.172065926445695e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "94ec1594a7f047b2ac889415c3dc2e42.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        703.791259765625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.00011466215019104853,
+        -703.7912597656157,
+        0.0,
+        0.0,
+        703.7912597656157,
+        -0.00011466215019104853,
+        0.0,
+        0.0,
+        2.384185791015625e-05,
+        0.0,
+        1.0
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube_Material.001_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+$main: #151515;
+
+@font-face {
+    font-family: 'myFont';
+    src: url(../fonts/Gotham-Light.otf) format("opentype");
+}
+
+body {
+    position: relative;
+    font-family: 'myFont', sans-serif;
+    background-color: $main;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#ThreeDObj{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+
